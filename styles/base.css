@@ -43,6 +43,7 @@ main {
 
 h2 {
     border-bottom: 1px solid var(--nav-color);
+    text-align: center;
 }
 
 .card h3 {
