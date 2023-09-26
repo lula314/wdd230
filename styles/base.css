@@ -3,6 +3,7 @@
 :root {
     --primary-color: #1B6C6A;
     --nav-color: #384547;
+    --hover-color: #525c5e;
 }
 
 body {
@@ -39,22 +40,21 @@ nav {
 }
 
 nav ul{
-    /* flex-direction: column; */
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav a {
     display: block;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
     text-decoration: none;
 }
 
-nav a:hover {
-    color: black;
-    border: 1px solid white;
+nav a:hover, .active {
+    background-color: var(--hover-color);
 }
 
 main {
@@ -89,6 +89,10 @@ h2 {
     list-style-type: none;
     text-align: left;
     padding: 0 1rem;
+}
+
+iframe {
+    padding: 1rem;
 }
 
 footer {
