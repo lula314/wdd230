@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Raleway&display=swap');
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fefae0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Arvo', serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif
+}
+
+.arvo {
+    font-family: 'Arvo', serif;
+}
+
+header {
+    background-color: #606C38;
+    padding: 1rem;
+    border: 7px solid #BC6C25;
+    color: #fefae0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
