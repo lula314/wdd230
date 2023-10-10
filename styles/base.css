@@ -101,3 +101,25 @@ footer {
     color: white;
     text-align: center;
 }
+
+/** Hamburger Menu Stuff **/
+
+.menu-hide, .menu-show{
+    display: none;
+    background-color: lightblue;
+    border: 1px solid grey;
+    margin: .5rem 0 0 .5rem;
+}
+
+.menu-hide.showing, .menu-show.showing{
+    display: block;
+}
+
+#nav-menu{
+    display: none;
+}
+
+#nav-menu.showing{
+    display: flex;
+    flex-direction: column;
+}

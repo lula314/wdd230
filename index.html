@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger-menu.js" defer></script>
   </head>
   <body>
     <header>
@@ -41,7 +42,8 @@
       <h1>Lucy Marble</h1>
     </header>
     <nav>
-      <ul>
+      <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+      <ul id="nav-menu">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
         <li><a href="chamber/">Chamber</a></li>
