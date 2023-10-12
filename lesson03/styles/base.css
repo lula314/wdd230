@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Raleway&display=swap');
 
+:root {
+    --neutral-color: #F1ECCE;
+    --primary-color: #618b4a;
+    --secondary-color: #40531b;
+    --tertiary-color: #74b3ce;
+}
+
 body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    background-color: #fefae0;
+    background-color: var(--neutral-color);
 }
 
 h1, h2, h3, h4 {
@@ -23,13 +30,17 @@ h1, h2, h3, h4 {
 }
 
 header {
-    background-color: #606C38;
+    background-color: var(--secondary-color);
     padding: 1rem;
-    border: 7px solid #BC6C25;
-    color: #fefae0;
+    border: 7px solid var(--primary-color);
+    color: var(--neutral-color);
 }
 
 ul {
     list-style-type: none;
     padding-left: 0;
+}
+
+img {
+    width: 300px;
 }
